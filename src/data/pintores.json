@@ -1,0 +1,7 @@
+[
+    {"Nombre": "Vincent van Gogh", "Edad": 37, "ObrasFamosas": ["Starry Night", "Sunflowers", "The Potato Eaters"]},
+    {"Nombre": "Pablo Picasso", "Edad": 91, "ObrasFamosas": ["Guernica", "Les Demoiselles d'Avignon", "The Weeping Woman"]},
+    {"Nombre": "Frida Kahlo", "Edad": 47, "ObrasFamosas": ["The Two Fridas", "Self-Portrait with Thorn Necklace and Hummingbird", "The Broken Column"]},
+    {"Nombre": "Leonardo da Vinci", "Edad": 67, "ObrasFamosas": ["Mona Lisa", "The Last Supper", "Vitruvian Man"]},
+    {"Nombre": "Claude Monet", "Edad": 86, "ObrasFamosas": ["Water Lilies", "Impression, Sunrise", "Rouen Cathedral Series"]}       
+]
