@@ -104,9 +104,7 @@ npm run preview
 
 La aplicación está deployada en **Vercel** y es accesible públicamente en:
 
-```
 https://
-
 
 ## 🤝 Equipo de Desarrollo
 
@@ -115,7 +113,6 @@ https://
 | Mila | Frontend / QA |
 | Pablo | Lead Developer |
 | Tincho | Full Stack |
-
 
 ## 📝 Licencia
 
@@ -131,4 +128,3 @@ Este archivo se actualizará en el próximo trabajo práctico (TP3), incorporand
 - [ ] Más integraciones de APIs
 - [ ] Animaciones mejoradas
 - [ ] Soporte multiidioma
-```
