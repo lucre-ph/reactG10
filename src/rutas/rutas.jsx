@@ -8,6 +8,7 @@ import { Mila } from "../secciones/Mila";
 import { Pablo } from "../secciones/Pablo";
 import { Tincho } from "../secciones/Tincho";
 import { Pintores } from "../secciones/Pintores";
+import MetGallery from "../secciones/Galeria";
 
 export const Rutas = () => {
     return (
@@ -19,6 +20,7 @@ export const Rutas = () => {
             <Route path="/mila" element={<Mila/>}/>    
             <Route path="/pablo" element={<Pablo/>}/>    
             <Route path="/tincho" element={<Tincho/>}/>  
+            <Route path="/galeria" element={<MetGallery/>}/>
             <Route path="/bitacora" element={<Bitacora/>}/>
             <Route path="/pintores" element={<Pintores/>}/>  
         </Routes>

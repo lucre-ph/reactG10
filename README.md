@@ -7,6 +7,7 @@ Una aplicación React moderna que presenta un museo virtual de artistas y obras 
 **Museo Grupazo** es una SPA (Single Page Application) que permite explorar información sobre artistas famosos y sus obras maestras. El proyecto integra datos locales en JSON, consumo de APIs públicas, y un diseño moderno con tema claro/oscuro.
 
 ### Características principales
+
 - Galería de artistas del equipo
 - Integración con API del Metropolitan Museum
 - Datos locales en JSON con artistas famosos
@@ -51,6 +52,7 @@ src/
   "apis": ["Metropolitan Museum Collection API"]
 }
 ```
+
 ⚙️ JavaScript / Funcionalidades Dinámicas
 
 | Sección                       | Componente / Archivo                 | Funcionalidad                                           |
@@ -60,21 +62,21 @@ src/
 | **Detalle de Obra / Artista** | `CardIntegrante.jsx` / `Artista.jsx` | Render dinámico con props o datos del JSON              |
 | **API Pública**               | `ApiMetMuseum.jsx`                   | Consumo de API del Met Museum usando **Axios**          |
 | **Tema claro/oscuro**         | `ThemeContext.jsx` + `Botón de tema` | Alterna dinámicamente entre temas mediante Context      |
-| **Sidebar y Navegación**      | `Sidebar.jsx`        | Controla rutas, animaciones y estados de expansión      |
+| **Sidebar y Navegación**      | `Sidebar.jsx`                        | Controla rutas, animaciones y estados de expansión      |
 | **Responsividad**             | CSS + styled-components              | Cambia disposición según el tamaño de pantalla          |
-
 
 ## 📱 Responsividad
 
 El proyecto implementa 3 puntos de quiebre:
 
-| Mobile | < 400px | 
-| Tablet | 400px - 800px | 
-| Desktop | > 800px | 
+| Mobile | < 400px |
+| Tablet | 400px - 800px |
+| Desktop | > 800px |
 
 ## 🔧 Instalación y Uso
 
 ### Requisitos previos
+
 - Node.js (v14+)
 - npm o yarn
 
@@ -101,17 +103,18 @@ npm run preview
 ## 🌐 Deploy
 
 La aplicación está deployada en **Vercel** y es accesible públicamente en:
+
 ```
 https://
 
 
 ## 🤝 Equipo de Desarrollo
 
-| Licha | Frontend / Hardware 
-| Lu | Frontend 
-| Mila | Frontend / QA | 
-| Pablo | Lead Developer | 
-| Tincho | Full Stack | 
+| Licha | Frontend / Hardware
+| Lu | Frontend
+| Mila | Frontend / QA |
+| Pablo | Lead Developer |
+| Tincho | Full Stack |
 
 
 ## 📝 Licencia
@@ -128,3 +131,4 @@ Este archivo se actualizará en el próximo trabajo práctico (TP3), incorporand
 - [ ] Más integraciones de APIs
 - [ ] Animaciones mejoradas
 - [ ] Soporte multiidioma
+```
