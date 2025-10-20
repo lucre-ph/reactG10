@@ -108,7 +108,7 @@ npm run preview
 
 La aplicación está deployada en **Vercel** y es accesible públicamente en:
 
-https://
+https://react-g10.vercel.app/
 
 ## 🤝 Equipo de Desarrollo
 
