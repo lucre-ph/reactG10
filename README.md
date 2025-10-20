@@ -18,27 +18,31 @@ Una aplicación React moderna que presenta un museo virtual de artistas y obras 
 ## 📁 Estructura del Proyecto
 
 ```
-src/
-├── componentes/          # Componentes reutilizables
-│   ├── Card.jsx
-│   ├── Sidebar.jsx
-│   ├── Footer.jsx
-├── secciones/           # Páginas principales
-│   ├── Inicio.jsx
-│   ├── Nosotros.jsx
-│   ├── Bitacora.jsx
-│   ├── Galeria.jsx
-│   ├── Pintores.jsx
-│   └── [integrantes]     # Licha.jsx, Lu.jsx, Mila.jsx, etc.
-├── rutas/
-│   └── rutas.jsx        # Configuración de rutas
-├── estilos/
-│   └── Themes.jsx       # Temas light/dark
-├── data/
-│   └── pintores.json    # Datos locales
-├── App.jsx              # Componente raíz
-├── main.jsx
-└── index.css            # Estilos globales
+/
+├── src/
+│ ├── componentes/ # Componentes reutilizables ("piezas de Lego" de la UI)
+│ │ ├── Card.jsx
+│ │ ├── Sidebar.jsx
+│ │ └── Footer.jsx
+│ ├── secciones/ # Componentes que actúan como páginas o vistas principales
+│ │ ├── Inicio.jsx
+│ │ ├── Nosotros.jsx
+│ │ ├── Bitacora.jsx
+│ │ ├── Galeria.jsx
+│ │ ├── Pintores.jsx
+│ │ └── [integrantes] # Licha.jsx, Lu.jsx, Mila.jsx, Tincho.jsx, Pablo.jsx
+│ ├── rutas/
+│ │ └── rutas.jsx # Configuración centralizada de React Router
+│ ├── estilos/
+│ │ └── Estilos.jsx # Lógica para los temas (light/dark) con Styled Components
+│ ├── data/
+│ │ └── pintores.json # Datos locales consumidos por la aplicación
+│ ├── App.jsx # Componente raíz que organiza el layout principal de la aplicación
+│ ├── main.jsx # Punto de entrada de JavaScript, donde React se monta en el DOM
+│ └── index.css # Estilos globales y reseteos de CSS
+├── public/
+│ └── imagenes/ # Contiene todos los assets estáticos como imágenes y logos
+└── index.html # El "cascarón" donde se inyecta toda la SPA (Single Page Application)
 ```
 
 ## 🚀 Tecnologías Utilizadas
