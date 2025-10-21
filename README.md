@@ -138,4 +138,4 @@ Este archivo se actualizará en el próximo trabajo práctico (TP3), incorporand
 
 A continuación se muestra el diagrama del proyecto:
 
-![Diagrama](./diagramaHorizontal.png)
+![Diagrama](./src/diagramaHorizontal.png)
