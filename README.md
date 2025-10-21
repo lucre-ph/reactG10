@@ -136,6 +136,6 @@ Este archivo se actualizará en el próximo trabajo práctico (TP3), incorporand
 
 ## 🗂️ Estructura del Proyecto
 
-A continuación se muestra el diagrama de carpetas del proyecto:
+A continuación se muestra el diagrama del proyecto:
 
-![Diagrama de carpetas](./DiagramaCarpetas.png)
+![Diagrama](./DiagramaXD.png)
