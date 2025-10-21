@@ -132,3 +132,10 @@ Este archivo se actualizará en el próximo trabajo práctico (TP3), incorporand
 - [ ] Más integraciones de APIs
 - [ ] Animaciones mejoradas
 - [ ] Soporte multiidioma
+
+
+## 🗂️ Estructura del Proyecto
+
+A continuación se muestra el diagrama de carpetas del proyecto:
+
+![Diagrama de carpetas](./DiagramaCarpetas.png)
